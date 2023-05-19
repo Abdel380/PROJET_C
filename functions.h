@@ -45,10 +45,7 @@ typedef struct{
     void *ptrShape; // pointeur sur n'importe quelle forme
 }Shape;
 
-typedef struct{
-    int nb;
-    Shape * lst_shape;
-}LIST_SHAPE;
+
 
 // Fonctions et structure pour le point
 
@@ -93,12 +90,12 @@ void print_polygon(Polygon *polygon);
 
 
 Shape *create_empty_shape(SHAPE_TYPE shape_type);
-Shape *create_point_shape(int px, int py, LIST_SHAPE *lst);
-Shape *create_line_shape(int px1, int py1, int px2, int py2, LIST_SHAPE *lst);
-Shape *create_square_shape(int px, int py, int length, LIST_SHAPE *lst);
-Shape *create_rectangle_shape(int px, int py, int width, int height, LIST_SHAPE *lst);
-Shape *create_circle_shape(int px, int py, int radius, LIST_SHAPE *lst);
-Shape *create_polygon_shape(int **coordonnees, int n, LIST_SHAPE *lst);
+Shape *create_point_shape(int px, int py);
+Shape *create_line_shape(int px1, int py1, int px2, int py2);
+Shape *create_square_shape(int px, int py, int length);
+Shape *create_rectangle_shape(int px, int py, int width, int height);
+Shape *create_circle_shape(int px, int py, int radius);
+Shape *create_polygon_shape(int **coordonnees, int n);
 void delete_shape(Shape * shape);
 void print_shape(Shape * shape);
 
@@ -117,9 +114,9 @@ int** initialise_coord_mat(int n);
 
 char * get_string_enum(Shape * shape);
 
-LIST_SHAPE * initialise_lst_shp();
-void add_shape(Shape * shape,LIST_SHAPE *lst);
 
-void menu(LIST_SHAPE * lst);
+
+
+//void menu(LIST_SHAPE * lst);
 
 #endif //PHOTOSHOP_FUNCTIONS_H

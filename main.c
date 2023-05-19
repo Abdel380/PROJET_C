@@ -4,7 +4,7 @@
 #include "pixel.h"
 int main(){
     system("cls");
-    LIST_SHAPE *lst = initialise_lst_shp();
+
 
     /*int x, y;
     printf("Veuillez choisir un point x y: ");
@@ -33,15 +33,15 @@ int main(){
 
     int  nb_pixels = 0;
 
-    Shape * shp0 = create_point_shape(-1,-1, lst);
-    Shape * shp = create_point_shape(4,7, lst);
+    Shape * shp0 = create_point_shape(-1,-1);
+    Shape * shp = create_point_shape(4,7);
 
-    //Shape * shp2 = create_line_shape(0, 0, 49, 0, lst);
-    //Shape * shp3 = create_line_shape(0, 1, 25,1, lst);
-    //Shape * shp3 = create_circle_shape(25, 25, 15, lst);
-    //Shape * shp4 = create_point_shape(25, 25, lst);
-    Shape * shp4 = create_square_shape(5,5,10,lst);
-    //Shape * shp5 = create_rectangle_shape(5,5,10,15,lst);
+    //Shape * shp2 = create_line_shape(0, 0, 49, 0);
+    //Shape * shp3 = create_line_shape(0, 1, 25,1);
+    //Shape * shp3 = create_circle_shape(25, 25, 15);
+    //Shape * shp4 = create_point_shape(25, 25);
+    Shape * shp4 = create_square_shape(5,5,10);
+    //Shape * shp5 = create_rectangle_shape(5,5,10,15);
 
     //pixel_square(square, pix, )
 

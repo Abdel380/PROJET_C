@@ -159,51 +159,51 @@ Shape *create_empty_shape(SHAPE_TYPE shape_type){
     shp ->shapeType = shape_type;
     return shp;
 }
-Shape *create_point_shape(int px, int py, LIST_SHAPE *lst){
+Shape *create_point_shape(int px, int py){
     Shape * shp = create_empty_shape(POINT);
     shp ->ptrShape = create_point(px,py);
-    add_shape(shp,lst);
+
     return shp;
 }
-Shape *create_line_shape(int px1, int py1, int px2, int py2, LIST_SHAPE *lst){
+Shape *create_line_shape(int px1, int py1, int px2, int py2){
     Shape * shp = create_empty_shape(LINE);
     Point *p1,*p2;
     p1 = create_point(px1,py1);
     p2 = create_point(px2,py2);
     shp -> ptrShape = create_line(p1,p2);
-    add_shape(shp, lst);
+
     return shp;
 }
-Shape *create_square_shape(int px, int py, int length, LIST_SHAPE *lst){
+Shape *create_square_shape(int px, int py, int length){
     Shape *shp = create_empty_shape(SQUARE);
     Point *p = create_point(px,py);
     Square  * s = create_square(p,length);
     shp -> ptrShape = s;
-    add_shape(shp,lst);
+
     return shp;
 }
-Shape *create_rectangle_shape(int px, int py, int width, int height,LIST_SHAPE* lst){
+Shape *create_rectangle_shape(int px, int py, int width, int height){
     Shape *shp = create_empty_shape(RECTANGLE);
     Point *p = create_point(px,py);
     shp -> ptrShape = create_rectangle(p,width,height);
-    add_shape(shp,lst);
+
     return shp;
 }
-Shape *create_circle_shape(int px, int py, int radius,LIST_SHAPE* lst){
+Shape *create_circle_shape(int px, int py, int radius){
     Shape *shp = create_empty_shape(CIRCLE);
     Point *p = create_point(px,py);
     shp -> ptrShape = create_circle(p,radius);
-    add_shape(shp,lst);
+
     return shp;
 }
-Shape *create_polygon_shape(int **coordonnees, int n,LIST_SHAPE* lst){
+Shape *create_polygon_shape(int **coordonnees, int n){
     if(n%2!=0){
         printf("nombre de coord invalide");
         return NULL;
     }
     Shape *shp = create_empty_shape(POLYGON);
     shp -> ptrShape = create_polygon(n/2,coordonnees);
-    add_shape(shp, lst);
+
     return shp;
 
 }
@@ -245,20 +245,8 @@ unsigned int get_next_id(){
     return ++global_id;
 }
 
-// Utilities function
-void display_head(){}
 
 
-
-void display_array(int ***A){
-    for (int i = 0; i<30; i++){
-        for (int j = 0; j<115; j++){
-            if ((*A)[i][j] == 0){
-                printf(".");}
-        }
-        printf("\n");
-    }
-}
 char * get_string_enum(Shape * shape){
     switch(shape->shapeType){
         case 0:
@@ -283,16 +271,6 @@ char * get_string_enum(Shape * shape){
 }
 
 
-/*void initialize_array(int ***A)
-{
-    *A = calloc(30,sizeof(int*));
-
-    for (int i=0; i<30; i++)
-    {
-        (*A)[i] = calloc(115,sizeof(int));
-    }
-}
-*/
 int** initialise_coord_mat(int n){
     int **tab = calloc(n+1 , sizeof(int*));
     for (int i=0; i<n+1; i++){
@@ -305,21 +283,9 @@ int** initialise_coord_mat(int n){
 
 }
 
-LIST_SHAPE * initialise_lst_shp(){
 
-    LIST_SHAPE *lst_shp = (LIST_SHAPE *) malloc(sizeof(LIST_SHAPE));
-    lst_shp->lst_shape = (Shape *) malloc(sizeof(Shape));
-    lst_shp->nb =0;
-    return lst_shp;
-}
 
-void add_shape(Shape * shape, LIST_SHAPE * lst){
-    lst->nb += 1;
-    lst->lst_shape = (Shape *) realloc(lst->lst_shape, lst->nb * sizeof(Shape));
-    lst->lst_shape[lst->nb-1] = *shape;
-}
-
-void menu(LIST_SHAPE * lst){
+/*void menu(LIST_SHAPE * lst){
     int choice_1 = 0;
     int choice_2 = 0;
     int choice_3 = 0;
@@ -401,4 +367,4 @@ void menu(LIST_SHAPE * lst){
         }
 
     }while(choice_1 != 3);
-}
+}*/

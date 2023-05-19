@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET
+# Install script for directory: C:/Users/33695/CLionProjects/dernier_project/PROJET_C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.1.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/33695/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/33695/CLionProjects/dernier_project/PROJET_C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

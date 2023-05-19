@@ -1,10 +1,10 @@
-"C:\Program Files\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET -B C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug
+C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\33695\CLionProjects\dernier_project\PROJET_C -B C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.1.1/bin/mingw/bin/gcc.exe - skipped
+-- Check for working C compiler: C:/Users/33695/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/cmake-build-debug
+-- Build files have been written to: C:/Users/33695/CLionProjects/dernier_project/PROJET_C/cmake-build-debug

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET
+CMAKE_SOURCE_DIR = C:\Users\33695\CLionProjects\dernier_project\PROJET_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/photoshop.dir/clean
 CMakeFiles/photoshop.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\photoshop.dir\build.make CMakeFiles/photoshop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\photoshop.dir\build.make CMakeFiles/photoshop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target photoshop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target photoshop"
 .PHONY : CMakeFiles/photoshop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/photoshop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/photoshop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/photoshop.dir/rule
 
 # Convenience name for target.

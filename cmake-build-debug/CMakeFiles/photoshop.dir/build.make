@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET
+CMAKE_SOURCE_DIR = C:\Users\33695\CLionProjects\dernier_project\PROJET_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/photoshop.dir/depend.make
@@ -69,74 +69,74 @@ include CMakeFiles/photoshop.dir/progress.make
 include CMakeFiles/photoshop.dir/flags.make
 
 CMakeFiles/photoshop.dir/main.c.obj: CMakeFiles/photoshop.dir/flags.make
-CMakeFiles/photoshop.dir/main.c.obj: C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/main.c
+CMakeFiles/photoshop.dir/main.c.obj: C:/Users/33695/CLionProjects/dernier_project/PROJET_C/main.c
 CMakeFiles/photoshop.dir/main.c.obj: CMakeFiles/photoshop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/photoshop.dir/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/main.c.obj -MF CMakeFiles\photoshop.dir\main.c.obj.d -o CMakeFiles\photoshop.dir\main.c.obj -c C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/photoshop.dir/main.c.obj"
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/main.c.obj -MF CMakeFiles\photoshop.dir\main.c.obj.d -o CMakeFiles\photoshop.dir\main.c.obj -c C:\Users\33695\CLionProjects\dernier_project\PROJET_C\main.c
 
 CMakeFiles/photoshop.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/photoshop.dir/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\main.c > CMakeFiles\photoshop.dir\main.c.i
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\33695\CLionProjects\dernier_project\PROJET_C\main.c > CMakeFiles\photoshop.dir\main.c.i
 
 CMakeFiles/photoshop.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/photoshop.dir/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\main.c -o CMakeFiles\photoshop.dir\main.c.s
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\33695\CLionProjects\dernier_project\PROJET_C\main.c -o CMakeFiles\photoshop.dir\main.c.s
 
 CMakeFiles/photoshop.dir/functions.c.obj: CMakeFiles/photoshop.dir/flags.make
-CMakeFiles/photoshop.dir/functions.c.obj: C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/functions.c
+CMakeFiles/photoshop.dir/functions.c.obj: C:/Users/33695/CLionProjects/dernier_project/PROJET_C/functions.c
 CMakeFiles/photoshop.dir/functions.c.obj: CMakeFiles/photoshop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/photoshop.dir/functions.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/functions.c.obj -MF CMakeFiles\photoshop.dir\functions.c.obj.d -o CMakeFiles\photoshop.dir\functions.c.obj -c C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/photoshop.dir/functions.c.obj"
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/functions.c.obj -MF CMakeFiles\photoshop.dir\functions.c.obj.d -o CMakeFiles\photoshop.dir\functions.c.obj -c C:\Users\33695\CLionProjects\dernier_project\PROJET_C\functions.c
 
 CMakeFiles/photoshop.dir/functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/photoshop.dir/functions.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\functions.c > CMakeFiles\photoshop.dir\functions.c.i
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\33695\CLionProjects\dernier_project\PROJET_C\functions.c > CMakeFiles\photoshop.dir\functions.c.i
 
 CMakeFiles/photoshop.dir/functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/photoshop.dir/functions.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\functions.c -o CMakeFiles\photoshop.dir\functions.c.s
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\33695\CLionProjects\dernier_project\PROJET_C\functions.c -o CMakeFiles\photoshop.dir\functions.c.s
 
 CMakeFiles/photoshop.dir/area.c.obj: CMakeFiles/photoshop.dir/flags.make
-CMakeFiles/photoshop.dir/area.c.obj: C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/area.c
+CMakeFiles/photoshop.dir/area.c.obj: C:/Users/33695/CLionProjects/dernier_project/PROJET_C/area.c
 CMakeFiles/photoshop.dir/area.c.obj: CMakeFiles/photoshop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/photoshop.dir/area.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/area.c.obj -MF CMakeFiles\photoshop.dir\area.c.obj.d -o CMakeFiles\photoshop.dir\area.c.obj -c C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\area.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/photoshop.dir/area.c.obj"
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/area.c.obj -MF CMakeFiles\photoshop.dir\area.c.obj.d -o CMakeFiles\photoshop.dir\area.c.obj -c C:\Users\33695\CLionProjects\dernier_project\PROJET_C\area.c
 
 CMakeFiles/photoshop.dir/area.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/photoshop.dir/area.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\area.c > CMakeFiles\photoshop.dir\area.c.i
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\33695\CLionProjects\dernier_project\PROJET_C\area.c > CMakeFiles\photoshop.dir\area.c.i
 
 CMakeFiles/photoshop.dir/area.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/photoshop.dir/area.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\area.c -o CMakeFiles\photoshop.dir\area.c.s
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\33695\CLionProjects\dernier_project\PROJET_C\area.c -o CMakeFiles\photoshop.dir\area.c.s
 
 CMakeFiles/photoshop.dir/globale.c.obj: CMakeFiles/photoshop.dir/flags.make
-CMakeFiles/photoshop.dir/globale.c.obj: C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/globale.c
+CMakeFiles/photoshop.dir/globale.c.obj: C:/Users/33695/CLionProjects/dernier_project/PROJET_C/globale.c
 CMakeFiles/photoshop.dir/globale.c.obj: CMakeFiles/photoshop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/photoshop.dir/globale.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/globale.c.obj -MF CMakeFiles\photoshop.dir\globale.c.obj.d -o CMakeFiles\photoshop.dir\globale.c.obj -c C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\globale.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/photoshop.dir/globale.c.obj"
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/globale.c.obj -MF CMakeFiles\photoshop.dir\globale.c.obj.d -o CMakeFiles\photoshop.dir\globale.c.obj -c C:\Users\33695\CLionProjects\dernier_project\PROJET_C\globale.c
 
 CMakeFiles/photoshop.dir/globale.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/photoshop.dir/globale.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\globale.c > CMakeFiles\photoshop.dir\globale.c.i
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\33695\CLionProjects\dernier_project\PROJET_C\globale.c > CMakeFiles\photoshop.dir\globale.c.i
 
 CMakeFiles/photoshop.dir/globale.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/photoshop.dir/globale.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\globale.c -o CMakeFiles\photoshop.dir\globale.c.s
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\33695\CLionProjects\dernier_project\PROJET_C\globale.c -o CMakeFiles\photoshop.dir\globale.c.s
 
 CMakeFiles/photoshop.dir/pixel.c.obj: CMakeFiles/photoshop.dir/flags.make
-CMakeFiles/photoshop.dir/pixel.c.obj: C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/pixel.c
+CMakeFiles/photoshop.dir/pixel.c.obj: C:/Users/33695/CLionProjects/dernier_project/PROJET_C/pixel.c
 CMakeFiles/photoshop.dir/pixel.c.obj: CMakeFiles/photoshop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/photoshop.dir/pixel.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/pixel.c.obj -MF CMakeFiles\photoshop.dir\pixel.c.obj.d -o CMakeFiles\photoshop.dir\pixel.c.obj -c C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\pixel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/photoshop.dir/pixel.c.obj"
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/photoshop.dir/pixel.c.obj -MF CMakeFiles\photoshop.dir\pixel.c.obj.d -o CMakeFiles\photoshop.dir\pixel.c.obj -c C:\Users\33695\CLionProjects\dernier_project\PROJET_C\pixel.c
 
 CMakeFiles/photoshop.dir/pixel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/photoshop.dir/pixel.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\pixel.c > CMakeFiles\photoshop.dir\pixel.c.i
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\33695\CLionProjects\dernier_project\PROJET_C\pixel.c > CMakeFiles\photoshop.dir\pixel.c.i
 
 CMakeFiles/photoshop.dir/pixel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/photoshop.dir/pixel.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\pixel.c -o CMakeFiles\photoshop.dir\pixel.c.s
+	C:\Users\33695\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\33695\CLionProjects\dernier_project\PROJET_C\pixel.c -o CMakeFiles\photoshop.dir\pixel.c.s
 
 # Object files for target photoshop
 photoshop_OBJECTS = \
@@ -158,7 +158,7 @@ photoshop.exe: CMakeFiles/photoshop.dir/build.make
 photoshop.exe: CMakeFiles/photoshop.dir/linkLibs.rsp
 photoshop.exe: CMakeFiles/photoshop.dir/objects1
 photoshop.exe: CMakeFiles/photoshop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable photoshop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable photoshop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\photoshop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/photoshop.dir/clean:
 .PHONY : CMakeFiles/photoshop.dir/clean
 
 CMakeFiles/photoshop.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug C:\Users\abdel\Downloads\PROJET_UPDATE_2\PROJET_UPDATE\PROJET_1\PROJET\cmake-build-debug\CMakeFiles\photoshop.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\33695\CLionProjects\dernier_project\PROJET_C C:\Users\33695\CLionProjects\dernier_project\PROJET_C C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug C:\Users\33695\CLionProjects\dernier_project\PROJET_C\cmake-build-debug\CMakeFiles\photoshop.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/photoshop.dir/depend
 
