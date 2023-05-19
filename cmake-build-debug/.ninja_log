@@ -1,0 +1,8 @@
+# ninja log v5
+2	84	7013725879558855	CMakeFiles/photoshop.dir/main.c.obj	93b3e59580c3ae2
+3	118	7013726247184973	CMakeFiles/photoshop.dir/functions.c.obj	87b2c2f42be594dd
+119	227	7013726248231983	photoshop.exe	7e91811abe170274
+0	90	7037289507496279	CMakeFiles/photoshop.dir/main.c.obj	3e3571849f87843f
+9	93	7037289507516229	CMakeFiles/photoshop.dir/area.c.obj	43381984861d8616
+4	110	7037289507700207	CMakeFiles/photoshop.dir/functions.c.obj	5dd1f8484f25aa04
+110	186	7037289508433183	photoshop.exe	ebb43bd00aacd17a

@@ -1,0 +1,3 @@
+C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/cmake-build-debug/CMakeFiles/photoshop.dir
+C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/abdel/Downloads/PROJET_UPDATE_2/PROJET_UPDATE/PROJET_1/PROJET/cmake-build-debug/CMakeFiles/rebuild_cache.dir
